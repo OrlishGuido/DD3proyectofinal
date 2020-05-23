@@ -1,0 +1,392 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box
+}
+
+body{
+	font-size: 16px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	 background-color: rgb(242, 241, 240);
+}
+wrapper{
+	width: 1366px;
+	height: 2548px
+}
+.contenedor{
+	width: 100%;
+	background-image: -moz-linear-gradient( 90deg, rgb(222,222,222) 0%, rgb(214,214,214) 10%, rgb(234,233,233) 43%, rgb(253,252,252) 86%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(222,222,222) 0%, rgb(214,214,214) 10%, rgb(234,233,233) 43%, rgb(253,252,252) 86%);
+  background-image: -ms-linear-gradient( 90deg, rgb(222,222,222) 0%, rgb(214,214,214) 10%, rgb(234,233,233) 43%, rgb(253,252,252) 86%);
+}
+.contenedor nav{
+	float: right
+}
+.contenedor nav ul{
+	list-style: none
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 13px;
+	padding-top: 6px
+}
+ul li a{
+	display: block;
+	color: #043b5e;
+	padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    text-decoration: none;
+	font-size: 23px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	
+}
+.contenedor a img{
+	padding-left: 55px
+}
+nav ul li a:hover {
+	color: #db9600;
+	text-decoration: none
+}
+ul li a {
+    padding-top: 0px;
+    margin-top: -2px;
+}
+/*comienza contenido*/
+.banner{
+	width: 100%
+}
+.banner img{
+	width: 100%
+}
+#wrapper .banner img {
+    margin-top: -7px;
+}
+#wrapper .covid {
+	width: 100%
+}
+#wrapper .covid h2 {
+    margin-left: 290px;
+}
+
+.covid h2{
+	color: #043b5e;
+	font-size: 40px;	
+}
+.covid a img {
+    padding-left: 53px;
+    margin-left: 10px;
+}
+.covid a img:hover {
+    transform: scale(1.1)
+}
+#wrapper .info {
+	width: 100%
+}
+#wrapper .info img {
+    margin-left: 60px;
+    margin-top: 54px;
+}
+#wrapper .info h2 {
+    font-size: 22px;
+    padding-left: 669px;
+    padding-right: 100px;
+    z-index: 23;
+    position: absolute;
+    padding-top: 71px;
+	color: #FFFFFF
+}
+#wrapper .info h3 {
+    font-size: 22px;
+    padding-left: 669px;
+    padding-right: 100px;
+    z-index: 23;
+    position: absolute;
+    padding-top: 300px;
+	color: #FFFFFF
+}
+#wrapper .valores {
+	width: 100%
+}
+#wrapper .valores h2 {
+    margin-left: 570px;
+	color: #043b5e;
+	font-size: 40px
+}
+.valores a img {
+    margin-top: 23px;
+    padding-left: 73px;
+    margin-left: 9px;
+}
+#wrapper .piedepagina {
+    padding-top: 31px;
+    margin-top: 57px;
+}
+.piedepagina div small {
+    padding-top: 0px;
+    padding-bottom: 22px;
+
+}
+
+
+.valores a img:hover {
+    transform: scale(1.1)
+}
+.piedepagina{
+	width: 100%;
+	background-image: -moz-linear-gradient( 90deg, rgb(2,38,61) 0%, rgb(4,59,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(2,38,61) 0%, rgb(4,59,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(2,38,61) 0%, rgb(4,59,94) 100%);
+
+}
+.piedepagina small{
+	display:table-cell;
+	color: #fff;
+	font-size: 16px;
+    padding-left: 439px
+}
+/*comienza vuelos*/
+#wrapper .oferta {
+	width: 100%
+}
+#wrapper .oferta img {
+    padding-top: 51px;
+    padding-left: 74px;
+}
+#wrapper .oferta h2 {
+	position: absolute;
+  left: 762.09px;
+  top: 584.7px;
+	font-size: 45px;
+	color: #213a5c;
+  z-index: 27;
+}
+
+
+#wrapper .oferta h3 {
+    position: absolute;
+    left: 762.09px;
+    top: 684.7px;
+    font-size: 25px;
+    color: #213a5c;
+    z-index: 27;
+    right: 67px;
+}
+#wrapper .destinos h2 {
+    padding-top: 37px;
+    padding-left: 534px;
+}
+
+#wrapper .oferta h4 {
+    position: absolute;
+    left: 762.09px;
+    top: 840px;
+    font-size: 25px;
+    color: #213a5c;
+    z-index: 27;
+    right: 67px;
+}
+#wrapper .destinos {
+	width: 100%
+}
+#wrapper .destinos h2 {
+	font-size: 48px;
+	color: #213a5c;
+	
+}
+.destinos a img {
+    padding-left: 91px;
+    margin-right: -16px;
+    padding-top: 52px;
+}
+.destinos a img:hover {
+    transform: scale(1.1);
+}
+/*comienza reserva*/
+#wrapper .reserva {
+	width: 75%;
+	height: 404px;
+	background-color: #213a5c
+}
+#wrapper .reserva {
+    margin-left: 161px;
+    margin-top: 56px;
+
+}
+#wrapper .reserva h2 {
+    color: #dea529;
+    font-size: 38px;
+    padding-left: 355px;
+    padding-top: 44px;
+}
+#wrapper .reserva a.desde {
+    font-size: 33px;
+    color: #dea529;
+    text-decoration: none;
+    line-height: 1.933;
+    position: absolute;
+    display: block;
+    background: #fdfdfd;
+    margin-top: 18px;
+    margin-right: 40px;
+    margin-left: 71px;
+    margin-bottom: 55px;
+    padding-left: 132px;
+    padding-right: 133px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+}
+
+#wrapper .reserva a.desde:hover {
+	background-image: -webkit-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+  background-image: -ms-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+
+}
+
+
+#wrapper .reserva a.hasta {
+    font-size: 33px;
+    color: #dea529;
+    text-decoration: none;
+    line-height: 1.933;
+    position: absolute;
+    display: block;
+    background: #fdfdfd;
+    margin-top: 18px;
+    margin-right: 40px;
+    margin-left: 574px;
+    margin-bottom: 55px;
+    padding-left: 132px;
+    padding-right: 133px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+}
+#wrapper .reserva a.hasta:hover {
+	background-image: -webkit-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+  background-image: -ms-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+}
+#wrapper .reserva a.fecha {
+    font-size: 33px;
+    color: #dea529;
+    text-decoration: none;
+    line-height: 1.933;
+    position: absolute;
+    display: block;
+    background: #fdfdfd;
+    margin-top: 160px;
+    margin-right: 40px;
+    margin-left: 71px;
+    margin-bottom: 55px;
+    padding-left: 132px;
+    padding-right: 133px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+}
+#wrapper .reserva a.fecha:hover {
+	background-image: -webkit-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+  background-image: -ms-linear-gradient( 90deg, rgb(208,206,206) 0%, rgb(253,253,253) 90%);
+}
+#wrapper .reserva a.reser {
+    font-size: 33px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.933;
+    position: absolute;
+    display: block;
+    background: #dea529;
+    margin-top: 160px;
+    margin-right: 40px;
+    margin-left: 574px;
+    margin-bottom: 55px;
+    padding-left: 122px;
+    padding-right: 104px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+}
+#wrapper .reserva a.reser:hover {
+	transform: scale(1.1);
+	border-radius: 10px;
+  background-image: -moz-linear-gradient( 90deg, rgb(253,126,2) 0%, rgb(222,165,41) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(253,126,2) 0%, rgb(222,165,41) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(253,126,2) 0%, rgb(222,165,41) 100%);
+}
+#wrapper .consulta {
+	width: 90%;
+}
+#wrapper .consulta img {
+    padding-left: 0px;
+    padding-top: 51px;
+    margin-left: 150px;
+    min-width: 431px;
+    width: 0px;
+}
+#wrapper .consulta img:hover {
+    transform: scale(1.1)
+}
+/*comienza contacto*/
+#wrapper .ubicacion {
+	width: 100%;
+}
+#wrapper .ubicacion h2 {
+    color: #043b5e;
+    font-size: 52px;
+    padding-left: 367px;
+    padding-top: 30px;
+}
+#wrapper .ubicacion p {
+    padding-left: 165px;
+    padding-top: 37px;
+}
+#wrapper .ubicacion h3 {
+	color: #043b5e;
+    font-size: 52px;
+    padding-left: 397px;
+    padding-top: 30px
+}
+#wrapper .contacto {
+    width: 80%;
+    height: 398px;
+    background-color: #043b5e;
+    margin-left: 133px;
+    margin-top: 52px;
+}
+#wrapper .contacto h2 {
+    color: #fff;
+    font-size: 35px;
+    padding-top: 54px;
+    padding-left: 306px;
+}
+#wrapper .contacto img {
+    padding-left: 228px;
+    padding-top: 0px;
+    position: absolute;
+    margin-top: -74px;
+}
+#wrapper .contacto h3 {
+    color: #fff;
+    font-size: 35px;
+    padding-top: 44px;
+    padding-left: 315px;
+	
+}
+
+#wrapper .contacto .redes {
+    ;
+    margin-top: 75px;
+       
+}
+
+#wrapper .contacto .redes {
+    margin-top: 113px;
+}
+.contacto .redes a {
+    margin-left: -53px;
+    margin-right: 260px;
+}
+.contacto .redes a img:hover {
+    transform: scale(1.1)
+}
